@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var gods = [
+            {name: "Shiva", age: 2000},
+            {name: "Bramha", age: 9000},
+            {name: "Krishna", age: 6000},
+        ];
+        // JSON.stringify creates json of a JS object
+        // JSON.parse creates js object from json format
+        var gods_json_string = JSON.stringify(gods);
+        console.log(typeof(gods_json_string));
+        console.log(gods_json_string);
+        console.log(JSON.parse(gods_json_string));
+
+    </script>
+</body>
+</html>
+
